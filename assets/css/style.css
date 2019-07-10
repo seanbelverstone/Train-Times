@@ -3,7 +3,7 @@ font-family: 'Karla', sans-serif; - titles
 */
 
 .jumbotron {
-    background-color: #2e8b57;
+    background-color: rgb(5,55,43);
     color: whitesmoke;
 }
 
@@ -35,4 +35,5 @@ h5 {
 form {
     padding: 10px;
     border: 2px darkred solid;
+    background-color: aliceblue;
 }

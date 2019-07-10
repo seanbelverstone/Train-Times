@@ -44,6 +44,7 @@ $("#submit").on("click", function(event) {
         alert("Please enter in the first train time.");
         return false;
     }
+    //need to make an if statement to ensure that the time entered is correct
 
     if (frequency === "") {
         alert("Please enter in a frequency.");

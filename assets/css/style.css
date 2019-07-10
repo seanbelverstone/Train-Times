@@ -1,0 +1,22 @@
+/* Custom fonts
+font-family: 'Karla', sans-serif; - titles
+*/
+
+.jumbotron {
+    background-color: #2e8b57;
+    color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.table, .form-group {
+    background-color: aliceblue;
+    padding: 10px;
+}
+

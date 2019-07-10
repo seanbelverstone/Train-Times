@@ -30,6 +30,26 @@ $("#submit").on("click", function(event) {
     var firstTrain = moment($("#firstTrainTimeInput").val().trim(), "HH:mm").format("HH:mm");
     var frequency = $("#frequencyInput").val().trim();
 
+    if (trainName === "") {
+        alert("Please enter in a train name.");
+        return false;
+    }
+
+    if (destination === "") {
+        alert("Please enter in a destination.");
+        return false;
+    }
+
+    if (firstTrain === "") {
+        alert("Please enter in the first train time.");
+        return false;
+    }
+
+    if (frequency === "") {
+        alert("Please enter in a frequency.");
+        return false;
+    }
+
     //Stores it in a JSON object called newTrain
     var newTrain = {
         name: trainName,

@@ -13,10 +13,26 @@ h1 {
 
 body {
     background-color: gainsboro;
+    margin-bottom: 50px;
 }
 
-.table, .form-group {
+h5 {
+    background-color: darkred;
+    border: 2px darkred solid;
+    width: auto;
+    color: rgb(240, 182, 36);
+    margin: 0;
+    padding: 7px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.table {
     background-color: aliceblue;
+    border: 2px darkred solid;
     padding: 10px;
 }
 
+form {
+    padding: 10px;
+    border: 2px darkred solid;
+}

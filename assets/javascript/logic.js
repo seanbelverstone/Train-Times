@@ -4,3 +4,30 @@ Retrieve the new trains from firebase.
 Calculate the next arrival against first train time
 Calculate minutes away
 */
+
+
+
+var firebaseConfig = {
+    apiKey: "AIzaSyDHOc7ZOHVskZIDsykkm7FVZRaxw0evKOQ",
+    authDomain: "train-times-dc03f.firebaseapp.com",
+    databaseURL: "https://train-times-dc03f.firebaseio.com",
+    projectId: "train-times-dc03f",
+    storageBucket: "",
+    messagingSenderId: "171608185338",
+    appId: "1:171608185338:web:ecb8d59dd5a0414d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+$(".submit").on("click", function(event) {
+    event.preventDefault();
+
+    var trainName = $("#trainNameInput").val().trim();
+    var destination = $("#destinationInput").val().trim();
+    var firstTrain = $("#firstTrainTimeInput").val().trim();
+    var frequency = $("#frequencyInput").val().trim();
+
+
+
+
+});

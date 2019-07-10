@@ -52,6 +52,8 @@ $("#submit").on("click", function(event) {
 
 });
 
+
+
 //Firebase event
 database.ref().on("child_added", function(childSnapshot) {
 
